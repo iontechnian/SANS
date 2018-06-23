@@ -1,0 +1,18 @@
+{
+  "name": "salien",
+  "version": "1.0.0",
+  "description": "A script that can be injected into the Salien game page for fun =D",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "Ilan G",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.12.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  }
+}
