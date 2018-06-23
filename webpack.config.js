@@ -1,9 +1,12 @@
 const path = require('path');
 
 module.exports = {
-    entry: './index.js',
+    entry: {
+        salien: './index.js',
+        script: './script.js'
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'salien.js'
+        filename: '[name].js'
     }
 }
